@@ -112,7 +112,7 @@ $ This script file all apps start different ips and ports
 
 
 
- ### Auther details:
+ ### Author details:
 
 
  * Name: Dhiraj Arya
