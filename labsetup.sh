@@ -170,28 +170,6 @@ project_stop ()
 
 }
 
-############ Labs status #############
-
-project_status()
-{
-  project_running "bWapp                        " "bwapp" "http://bwapp"
-  project_running "WebGoat 7.1                  " "webgoat7" "http://webgoat7/WebGoat"
-  project_running "WebGoat 8.0                  " "webgoat8" "http://webgoat8/WebGoat"
-  project_running "WebGoat 8.1                  " "webgoat81" "http://webgoat81/WebGoat"
-  project_running "DVWA                         " "dvwa" "http://dvwa"
-  project_running "Mutillidae II                " "mutillidae" "http://mutillidae"
-  project_running "OWASP Juice Shop             " "juiceshop" "http://juiceshop"
-  project_running "WPScan Vulnerable Wordpress  " "vulnerablewordpress" "http://vulnerablewordpress"
-  project_running "OpenDNS Security Ninjas      " "securityninjas" "http://securityninjas"
-  project_running "Altoro Mutual                " "altoro" "http://altoro"
-  project_running "Vulnerable GraphQL API       " "graphql" "http://graphql"
- 
-#  if [ "$(sudo docker ps -q -f name=securitysheperd)" ]; then
-#    echo "OWASP Security Sheperd		running at http://securitysheperd"
-#  else 
-#    echo "OWASP Security Sheperd		not running"  
-#  fi
-}
 
 #############   Lab Stop and Config   ##############
 
